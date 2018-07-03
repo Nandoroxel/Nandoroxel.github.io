@@ -1,1 +1,135 @@
-Olá
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <title>Luís Fernando Meyer</title>
+    <meta name="description" content="Sou Estudante no SENAI, jogador de tibia, LOL, CF, ETC... .">
+      
+    <meta property="og:description" content="Sou Estudante no SENAI, jogador de tibia, LOL, CF, ETC... .">
+      
+    <meta property="og:image" content="https://scontent.fbnu3-1.fna.fbcdn.net/v/t1.0-0/q83/p206x206/13442168_10209702550908318_2470538920556727474_n.jpg?_nc_cat=0&oh=efdd995b6053dcede8a1219d1e5374cb&oe=5BA54243">
+    <style>
+        
+      body {
+        background-color: darkslategray;
+        font-family: monospace;
+        text-align: center;
+        color: moccasin;
+      }
+        
+      h1 {
+        font-size: 30px;
+        color: skyblue;
+      }
+        h1:hover {
+            color:black
+        }
+        
+        a:hover {
+            color:aquamarine
+        }
+      h2 {
+        font-size: 15px;
+        margin: 10px 0;
+      }
+        
+      a {
+        color: skyblue;
+        text-decoration: none;
+      }
+      section {
+        margin: 15px 0;
+      }
+        
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 95vh;
+      }
+        
+      header {
+        color: black;
+      }
+        
+      header .photo img {
+        border-radius: 100%;
+      }
+        
+      header .basic-info .current-role {
+        font-size: 20px;
+      }
+        
+      header .sub-current-role {
+        font-size: 16px;
+        margin-bottom: 25px;
+      }
+        
+      .contact {
+        margin-top: 0;
+      }
+        
+      .contact h2 {
+        display: none;
+      }
+        
+      .socials {
+        margin: 15px 0;
+      }
+        
+      .tags .tag {
+        padding: 6px 10px;
+        background-color: #312727;
+        font-size: 10px;
+        border-radius: 10px;
+        display: inline-block;
+        margin: 5px 0;
+      }
+        
+      .companies img {
+        margin: 10px;
+        height: 25px;
+      }
+        
+    </style>
+  </head>
+
+  <body>
+    <main class="container">
+      <header>
+        <div class="photo">
+          <img src="https://scontent.fbnu3-1.fna.fbcdn.net/v/t1.0-0/q83/p206x206/13442168_10209702550908318_2470538920556727474_n.jpg?_nc_cat=0&oh=efdd995b6053dcede8a1219d1e5374cb&oe=5BA54243" alt="Luís Fernando Meyer" width="139" height="142" style="border: Black Solid 5px;">
+        </div>
+        <div class="basic-info">
+          <h1>Luís Fernando</h1>
+          <p class="current-role">Trabalho na Marisol</p>
+          <p class="sub-current-role">Sou Estudante no SENAI, jogador de tibia, LOL, CF, ETC... .</p>
+        </div>
+          <img src= "https://www.tibiawiki.com.br/images/a/a2/Outfiter.gif"
+      </header>
+      <section class="contact">
+        <h2 aria-hidden="true">Contact</h2>
+        <div>Email: <a href="Gmail:nando.meyer2013@gmail">nando.meyer2013@gmail.com</a></div>
+        <div>Github: <a href="https://Nandoroxel.github.io/" target="_self" rel="noopener">@Nandoroxel</a></div>
+      </section>
+      <section class="tags">
+        <h2>Experiência</h2>
+        <span class="tag">Estamparia</span>
+        <span class="tag">Modelagem do Vestuário</span>
+      </section>
+    </main>
+      <footer id="Tempo"> </footer>
+        
+        <script type="text/javascript">
+        var myVar = setInterval(myTimer, 1000);
+            function myTimer() {
+                var d = new Date();                
+                document.getElementById("Tempo").innerHTML = d.getDate() + '/'+ (d.getMonth()+1)+'/'+d.getFullYear()+' '+ d.getHours()+':' + d.getMinutes()+ ':' + d.getSeconds();
+                
+            }
+        </script>
+  </body>
+</html>
